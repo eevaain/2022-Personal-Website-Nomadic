@@ -10,7 +10,7 @@ export default function Main() {
 
         <div className="relative">
           <img className = "rounded-md h-12 w-big sm:h-16 bg-bottom object-cover" src="trippy2.png" alt="ok"></img>
-          <a className="medium absolute w-full py-2.5 bottom-2.5 text-white text-center">Evan Lin</a>
+          <a className="medium absolute w-full py-2.5 bottom-1 sm:py-2.5 sm:bottom-2.5 text-white text-center">Evan Lin</a>
         </div>
 
         {/* GIVE A THANK YOU TO EVERY SECTION LIKE A THANK YOU TO BRETT FOR EPIPHETS*/}
@@ -18,19 +18,19 @@ export default function Main() {
         {/* thank jake in bookshelf */}
         {/* thank jae and ryan junee in writing */}
 
-              <div className = "flex justify-around pt-6 pb-8">
-                <a className = "regular">Home [0]</a>
-                <a className = "regular">Writing [1]</a>
-                <a className = "regular">Bookshelf [2]</a>
-                <a className = "regular">Epiphets [3]</a>
-                <a className = "regular">Projects [4]</a>
+              <div className = "flex justify-around pt-6 pb-8 text-xs sm:text-base ">
+                <a className = "regular">Home</a>
+                <a className = "regular">Writing</a>
+                <a className = "regular">Bookshelf</a>
+                <a className = "regular">Epiphets</a>
+                <a className = "regular">Projects</a>
               </div>
 
       </div>
 
 
       <div className = "Header">
-         <a className = "medium text-black flex justify-center text-4xl text-center pb-2 pt-6 sm:text-6xl sm:pt-4 tracking-normal"> Take a Leap of Faith</a>
+         <a className = "medium text-black flex justify-center text-3xl text-center pb-2 pt-1 sm:text-6xl sm:pt-4 tracking-normal"> Take a Leap of Faith</a>
             <div className = "flex flex-row justify-center">
               <a className = "medium text-black font-regular text-lg sm:text-3xl pb-6 tracking-normal"> Pull the Lever. </a>
             </div>
