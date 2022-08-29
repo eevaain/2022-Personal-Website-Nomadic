@@ -54,9 +54,9 @@ export default function Main() {
       </div>
 
 
-      <div className = "flex flex-col self-center pt-6 max-w-lg">
+      <div className = "flex flex-col self-center pt-6   w-11/12 sm:max-w-lg ">
 
-        <details className=" open:bg-amber-200 duration-300">
+        <details className="">
             <summary className="bg-inherit text-lg cursor-pointer">
               <a className="medium sm:text-2xl"> <pog className="pog">Design choice </pog>about this site </a>
               </summary>
