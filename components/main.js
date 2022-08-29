@@ -137,7 +137,7 @@ export default function Main() {
               </div>
 
               <div>
-                <a className = "regular text-xs sm:text-base">Email</a>
+                <a className = "regular text-xs sm:text-base" href="mailto:evanlin416@gmail.com">Email</a>
             
                 <div className="h-1 w-full pt-3 relative">
                     <Image
