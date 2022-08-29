@@ -85,7 +85,7 @@ export default function Main() {
              <div className = "flex justify-around pt-3 sm:pt-6">
 
               <div>
-                <a className = "regular text-xs sm:text-base" href="https://www.youtube.com/channel/UCn9Ir-KFtIWSntk6RzGE1-A" target="_blank" rel="noopener noreferrer">YouTube</a>
+              <a className = "regular text-xs sm:text-base cursor-pointer" onClick = {() => window.open('https://www.youtube.com/channel/UCn9Ir-KFtIWSntk6RzGE1-A')}>YouTube</a>
 
                   <div className="h-1 w-full pt-3 relative">
                     <Image
@@ -99,7 +99,7 @@ export default function Main() {
 
 
               <div>
-                <a className = "regular text-xs sm:text-base" href="https://twitter.com/evannlinn" target="_blank" rel="noopener noreferrer">Twitter</a>
+              <a className = "regular text-xs sm:text-base cursor-pointer" onClick = {() => window.open('https://twitter.com/evannlinn')}>Twitter</a>
 
                 <div className="h-1 w-full pt-3 relative">
                   <Image
@@ -112,7 +112,7 @@ export default function Main() {
               </div>
 
               <div>
-                <a className = "regular text-xs sm:text-base"  href="https://www.linkedin.com/in/evan-lin-0b764b1a3/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a className = "regular text-xs sm:text-base cursor-pointer" onClick = {() => window.open('https://www.linkedin.com/in/evan-lin-0b764b1a3/')}>LinkedIn</a>
 
                 <div className="h-1 w-full pt-3 relative">
                   <Image
@@ -124,8 +124,8 @@ export default function Main() {
      
               </div>
 
-              <div>
-                <a className = "regular text-xs sm:text-base" href="https://www.instagram.com/evanliin/" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <div >
+                <a className = "regular text-xs sm:text-base cursor-pointer" onClick = {() => window.open('https://www.instagram.com/evanliin/?hl=en')}>Instagram</a>
              
                 <div className="h-1 w-full pt-3 relative">
                     <Image
