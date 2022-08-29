@@ -9,7 +9,7 @@ export default function Main() {
       <div className="flex flex-col place-self-center ">
 
         <div className="relative">
-          <img className = "rounded-md h-12 w-big sm:h-16 bg-bottom object-cover" src="trippy2.png"></img>
+          <img className = "rounded-md h-12 w-big sm:h-16 bg-bottom object-cover" src="trippy2.png" alt="ok"></img>
           <a className="medium absolute w-full py-2.5 bottom-2.5 text-white text-center">Evan Lin</a>
         </div>
 
