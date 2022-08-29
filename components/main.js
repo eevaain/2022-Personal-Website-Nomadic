@@ -41,12 +41,12 @@ export default function Main() {
         <div className = "flex flex-col items-center ">
          
           
-          <div className="flex  justify-center ">
+          <div className="flex justify-center ">
                   <Image
                     src={'/ok2.png'}
-            
                     height ={310}
                     width={466}
+                    alt="image"
                   />
                 </div>
 
@@ -56,20 +56,20 @@ export default function Main() {
 
       <div className = "flex flex-col self-center pt-6 max-w-lg">
 
-        <details class=" open:bg-amber-200 duration-300">
-            <summary class="bg-inherit text-lg cursor-pointer">
-              <a class="medium sm:text-2xl"> <pog className="pog">Design choice </pog>about this site </a>
+        <details className=" open:bg-amber-200 duration-300">
+            <summary className="bg-inherit text-lg cursor-pointer">
+              <a className="medium sm:text-2xl"> <pog className="pog">Design choice </pog>about this site </a>
               </summary>
-            <div class="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
+            <div className="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
                 <p>under construction.</p>
             </div>
         </details>
 
-        <details class="pt-0.5 open:bg-amber-200 duration-300">
-            <summary class="bg-inherit text-lg cursor-pointer">
-              <a class="medium sm:text-2xl"> About me </a>
+        <details className="pt-0.5 open:bg-amber-200 duration-300">
+            <summary className="bg-inherit text-lg cursor-pointer">
+              <a className="medium sm:text-2xl"> About me </a>
               </summary>
-            <div class="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
+            <div className="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
                 <p>Esoteric embedded system enthusiast. Seeking fundemental truths of reality. This part is also still under construction. </p>
             </div>
         </details>
@@ -87,6 +87,7 @@ export default function Main() {
                     <Image
                       src={'/scribble1.png'}
                       layout="fill" // required
+                      alt="image"
                     />
                   </div>
                   
@@ -100,6 +101,7 @@ export default function Main() {
                   <Image
                     src={'/scribble2.png'}
                     layout="fill" // required
+                    alt="image"
                   />
                 </div>
        
@@ -112,6 +114,7 @@ export default function Main() {
                   <Image
                     src={'/scribble3.png'}
                     layout="fill" // required
+                    alt="image"
                   />
                 </div>
      
@@ -124,6 +127,7 @@ export default function Main() {
                     <Image
                       src={'/scribble4.png'}
                       layout="fill" // required
+                      alt="image"
                     />
                   </div>
               </div>
@@ -135,6 +139,7 @@ export default function Main() {
                     <Image
                       src={'/scribble5.png'}
                       layout="fill" // required
+                      alt="image"
                     />
                   </div>
               </div>
