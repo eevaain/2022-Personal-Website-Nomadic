@@ -32,7 +32,7 @@ export default function Main() {
       <div className = "Header">
          <a className = "medium text-black flex justify-center text-3xl text-center pb-2 pt-1 sm:text-6xl sm:pt-4 tracking-normal"> Take a Leap of Faith</a>
             <div className = "flex flex-row justify-center">
-              <a className = "medium text-black font-regular text-lg sm:text-3xl pb-6 tracking-normal"> Safety net: null</a>
+              <a className = "medium text-black font-regular text-lg sm:text-3xl pb-6 tracking-normal"> Safety net: zero</a>
             </div>
       </div>
 
