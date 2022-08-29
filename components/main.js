@@ -61,9 +61,11 @@ export default function Main() {
               <a className="medium sm:text-2xl"> <pog className="pog">Design choice </pog>about this site </a>
               </summary>
             <div className="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
+                <p>A temple to worhip about communicating ideas instead of merit.</p>
+                <p>. . .</p>
                 <p>Felt like my old website was too busy <thing className="underline cursor-pointer" onClick = {() => window.open('https://wapp-sage.vercel.app/')}>[CONTEXT]</thing></p>
                 <p>. . .</p>
-                <p>A temple to worhip about communicating ideas instead of merit. Settling for something simple and timeless that expresses creative output. </p>
+                <p>Settling for something simple and timeless that accurately depicts my creative output. </p>
             </div>
         </details>
 
