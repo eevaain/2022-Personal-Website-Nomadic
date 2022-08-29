@@ -10,7 +10,7 @@ export default function Main() {
 
         <div className="relative">
           <img className = "rounded-md h-12 w-big sm:h-16 bg-bottom object-cover" src="trippy2.png" alt="ok"></img>
-          <a className="medium absolute w-full py-2.5 bottom-1 sm:py-2.5 sm:bottom-2.5 text-white text-center">Evan Lin</a>
+          <a className="medium absolute w-full py-2 bottom-1 sm:py-2.5 sm:bottom-2.5 text-white text-center">Evan Lin</a>
         </div>
 
         {/* GIVE A THANK YOU TO EVERY SECTION LIKE A THANK YOU TO BRETT FOR EPIPHETS*/}
@@ -32,7 +32,7 @@ export default function Main() {
       <div className = "Header">
          <a className = "medium text-black flex justify-center text-3xl text-center pb-2 pt-1 sm:text-6xl sm:pt-4 tracking-normal"> Take a Leap of Faith</a>
             <div className = "flex flex-row justify-center">
-              <a className = "medium text-black font-regular text-lg sm:text-3xl pb-6 tracking-normal"> Pull the Lever. </a>
+              <a className = "medium text-black font-regular text-lg sm:text-3xl pb-6 tracking-normal"> Safety net: null</a>
             </div>
       </div>
 
@@ -61,16 +61,20 @@ export default function Main() {
               <a className="medium sm:text-2xl"> <pog className="pog">Design choice </pog>about this site </a>
               </summary>
             <div className="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
-                <p>under construction.</p>
+                <p>Under construction...</p>
             </div>
         </details>
 
         <details className="pt-0.5 open:bg-amber-200 duration-300">
             <summary className="bg-inherit text-lg cursor-pointer">
               <a className="medium sm:text-2xl"> About me </a>
-              </summary>
+            </summary>
             <div className="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
-                <p>Esoteric embedded system enthusiast. Seeking fundemental truths of reality. This part is also still under construction. </p>
+                <p>Esoteric embedded system enthusiast. Seeking fundemental truths of reality. I like to take risks and explore low-level computing.</p>
+                <p>. . .</p>
+                <p>Currently taking a gap year from graduating high school. </p>
+                <p>. . .</p>
+                <p>I become legal on 2022-09-14. </p>
             </div>
         </details>
 
@@ -81,7 +85,7 @@ export default function Main() {
              <div className = "flex justify-around pt-3 sm:pt-6">
 
               <div>
-                <a className = "regular text-xs sm:text-base">YouTube</a>
+                <a className = "regular text-xs sm:text-base" href="https://www.youtube.com/channel/UCn9Ir-KFtIWSntk6RzGE1-A" target="_blank">YouTube</a>
 
                   <div className="h-1 w-full pt-3 relative">
                     <Image
@@ -95,7 +99,7 @@ export default function Main() {
 
 
               <div>
-                <a className = "regular text-xs sm:text-base">Twitter</a>
+                <a className = "regular text-xs sm:text-base" href="https://twitter.com/evannlinn" target="_blank">Twitter</a>
 
                 <div className="h-1 w-full pt-3 relative">
                   <Image
@@ -108,7 +112,7 @@ export default function Main() {
               </div>
 
               <div>
-                <a className = "regular text-xs sm:text-base">LinkedIn</a>
+                <a className = "regular text-xs sm:text-base"  href="https://www.linkedin.com/in/evan-lin-0b764b1a3/" target="_blank">LinkedIn</a>
 
                 <div className="h-1 w-full pt-3 relative">
                   <Image
@@ -121,7 +125,7 @@ export default function Main() {
               </div>
 
               <div>
-                <a className = "regular text-xs sm:text-base">Instagram</a>
+                <a className = "regular text-xs sm:text-base" href="https://www.instagram.com/evanliin/" target="_blank">Instagram</a>
              
                 <div className="h-1 w-full pt-3 relative">
                     <Image
