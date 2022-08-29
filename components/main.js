@@ -63,7 +63,7 @@ export default function Main() {
             <div className="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
                 <p>Felt like my old website was too busy <thing className="underline cursor-pointer" onClick = {() => window.open('https://wapp-sage.vercel.app/')}>[CONTEXT]</thing></p>
                 <p>. . .</p>
-                <p> Settling for something a lil more simple, timeless, and an expression of creative output. Focusing less on merit and more about communicating my ideas. </p>
+                <p>A temple to worhip about communicating ideas instead of merit. Settling for something simple and timeless that expresses creative output. </p>
             </div>
         </details>
 
