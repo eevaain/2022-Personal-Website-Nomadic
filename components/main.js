@@ -78,7 +78,7 @@ export default function Main() {
 
           <div className = "Footer pt-20">
             <a className = "medium text-black text-xl sm:text-2xl tracking-normal">Find me on</a>
-             <div className = "flex gap-x-8 pt-6">
+             <div className = "flex justify-around pt-6">
 
               <div>
                 <a className = "regular">YouTube</a>
