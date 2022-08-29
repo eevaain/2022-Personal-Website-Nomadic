@@ -39,7 +39,17 @@ export default function Main() {
 
       <div className = "Portfolio">
         <div className = "flex flex-col items-center ">
-          <img className = "flex h-52 justify-center z-10 sm:h-72" src="ok2.png"></img>
+         
+          
+          <div className="flex  justify-center ">
+                  <Image
+                    src={'/ok2.png'}
+            
+                    height ={310}
+                    width={466}
+                  />
+                </div>
+
         </div>
       </div>
 
