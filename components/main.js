@@ -61,7 +61,7 @@ export default function Main() {
               <a className="medium sm:text-2xl"> <pog className="pog">Design choice </pog>about this site </a>
               </summary>
             <div className="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
-                <p>I felt like my old website was too "busy." Settling for something a lil' more simple, timeless, and an expression of creative output. I want to focus less on showing merit and more about communicating my ideas. </p>
+                <p>I felt like my old website was too busy. Settling for something a lil more simple, timeless, and an expression of creative output. I want to focus less on showing merit and more about communicating my ideas. </p>
             </div>
         </details>
 
