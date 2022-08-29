@@ -78,10 +78,10 @@ export default function Main() {
 
           <div className = "Footer pt-20">
             <a className = "medium text-black text-xl sm:text-2xl tracking-normal">Find me on</a>
-             <div className = "flex justify-around pt-6">
+             <div className = "flex justify-around pt-3 sm:pt-6">
 
               <div>
-                <a className = "regular">YouTube</a>
+                <a className = "regular text-xs sm:text-base">YouTube</a>
 
                   <div className="h-1 w-full pt-3 relative">
                     <Image
@@ -95,7 +95,7 @@ export default function Main() {
 
 
               <div>
-                <a className = "regular">Twitter</a>
+                <a className = "regular text-xs sm:text-base">Twitter</a>
 
                 <div className="h-1 w-full pt-3 relative">
                   <Image
@@ -108,7 +108,7 @@ export default function Main() {
               </div>
 
               <div>
-                <a className = "regular">LinkedIn</a>
+                <a className = "regular text-xs sm:text-base">LinkedIn</a>
 
                 <div className="h-1 w-full pt-3 relative">
                   <Image
@@ -121,7 +121,7 @@ export default function Main() {
               </div>
 
               <div>
-                <a className = "regular">Instagram</a>
+                <a className = "regular text-xs sm:text-base">Instagram</a>
              
                 <div className="h-1 w-full pt-3 relative">
                     <Image
@@ -133,7 +133,7 @@ export default function Main() {
               </div>
 
               <div>
-                <a className = "regular">Email</a>
+                <a className = "regular text-xs sm:text-base">Email</a>
             
                 <div className="h-1 w-full pt-3 relative">
                     <Image
