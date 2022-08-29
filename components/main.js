@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from 'next/image'
 import "@fontsource/playfair-display/500.css"
 
 export default function Main() {
@@ -71,28 +72,61 @@ export default function Main() {
 
               <div>
                 <a className = "regular">YouTube</a>
-                <img src="scribble1.png"></img>
+
+                  <div className="h-1 w-full pt-3 relative">
+                    <Image
+                      src={'/scribble1.png'}
+                      layout="fill" // required
+                    />
+                  </div>
+                  
               </div>
 
 
               <div>
                 <a className = "regular">Twitter</a>
-                <img src="scribble2.png"></img>
+
+                <div className="h-1 w-full pt-3 relative">
+                  <Image
+                    src={'/scribble2.png'}
+                    layout="fill" // required
+                  />
+                </div>
+       
               </div>
 
               <div>
                 <a className = "regular">LinkedIn</a>
-                <img src="scribble3.png"></img>
+
+                <div className="h-1 w-full pt-3 relative">
+                  <Image
+                    src={'/scribble3.png'}
+                    layout="fill" // required
+                  />
+                </div>
+     
               </div>
 
               <div>
                 <a className = "regular">Instagram</a>
-                <img src="scribble4.png"></img>
+             
+                <div className="h-1 w-full pt-3 relative">
+                    <Image
+                      src={'/scribble4.png'}
+                      layout="fill" // required
+                    />
+                  </div>
               </div>
 
               <div>
                 <a className = "regular">Email</a>
-                <img src="scribble5.png"></img>
+            
+                <div className="h-1 w-full pt-3 relative">
+                    <Image
+                      src={'/scribble5.png'}
+                      layout="fill" // required
+                    />
+                  </div>
               </div>
 
               </div> 
