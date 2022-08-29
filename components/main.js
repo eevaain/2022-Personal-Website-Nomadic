@@ -61,7 +61,7 @@ export default function Main() {
               <a className="medium sm:text-2xl"> <pog className="pog">Design choice </pog>about this site </a>
               </summary>
             <div className="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
-                <p>I felt like my old website was too busy. Settling for something a lil more simple, timeless, and an expression of creative output. I want to focus less on showing merit and more about communicating my ideas. </p>
+                <p>I felt like my old website was too busy [CONTEXT HERE]. Settling for something a lil more simple, timeless, and an expression of creative output. I want to focus less on showing merit and more about communicating my ideas. </p>
             </div>
         </details>
 
@@ -70,11 +70,17 @@ export default function Main() {
               <a className="medium sm:text-2xl"> About me </a>
             </summary>
             <div className="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
-                <p>Esoteric embedded system enthusiast. Seeking fundemental truths of reality. I like to take risks and explore low-level computing while pursing a spiritual journey. And i love karaoke. And deep meaningful conversations.</p>
+                <p>Left full-stack and shut down a web3 startup to pursue computer architecture over a gap year.</p>
                 <p>. . .</p>
-                <p>Currently taking a gap year from graduating high school. </p>
+                <p> Esoteric embedded system enthusiast. Curious about the fundemental nature of reality. I like to take risks and explore low-level computing while pursing a spiritual journey. And i love karaoke.</p>
+                <p>. . .</p>
+                <p>Graduated high school and now living my life to the fullest. Currently studying computer architecture by writing a CPU emulator and by building a homebrew computer using a 6502 processor. </p>
+                <p>. . .</p>
+                <p>Focusing on building a stronger emotional intelligence and forging deeper relationships.</p>
                 <p>. . .</p>
                 <p>I become legal on 2022-09-14. </p>
+                <p>. . .</p>
+                <p>Updated on 2022-08-29.</p>
             </div>
         </details>
 
