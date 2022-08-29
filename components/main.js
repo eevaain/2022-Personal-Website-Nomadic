@@ -61,7 +61,7 @@ export default function Main() {
               <a className="medium sm:text-2xl"> <pog className="pog">Design choice </pog>about this site </a>
               </summary>
             <div className="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
-                <p>Under construction...</p>
+                <p>I felt like my old website was too "busy." Settling for something a lil' more simple, timeless, and an expression of creative output. I want to focus less on showing merit and more about communicating my ideas. </p>
             </div>
         </details>
 
@@ -70,7 +70,7 @@ export default function Main() {
               <a className="medium sm:text-2xl"> About me </a>
             </summary>
             <div className="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
-                <p>Esoteric embedded system enthusiast. Seeking fundemental truths of reality. I like to take risks and explore low-level computing.</p>
+                <p>Esoteric embedded system enthusiast. Seeking fundemental truths of reality. I like to take risks and explore low-level computing while pursing a spiritual journey. And i love karaoke. And deep meaningful conversations.</p>
                 <p>. . .</p>
                 <p>Currently taking a gap year from graduating high school. </p>
                 <p>. . .</p>
@@ -85,7 +85,7 @@ export default function Main() {
              <div className = "flex justify-around pt-3 sm:pt-6">
 
               <div>
-                <a className = "regular text-xs sm:text-base" href="https://www.youtube.com/channel/UCn9Ir-KFtIWSntk6RzGE1-A" target="_blank">YouTube</a>
+                <a className = "regular text-xs sm:text-base" href="https://www.youtube.com/channel/UCn9Ir-KFtIWSntk6RzGE1-A" target="_blank" rel="noopener noreferrer">YouTube</a>
 
                   <div className="h-1 w-full pt-3 relative">
                     <Image
@@ -99,7 +99,7 @@ export default function Main() {
 
 
               <div>
-                <a className = "regular text-xs sm:text-base" href="https://twitter.com/evannlinn" target="_blank">Twitter</a>
+                <a className = "regular text-xs sm:text-base" href="https://twitter.com/evannlinn" target="_blank" rel="noopener noreferrer">Twitter</a>
 
                 <div className="h-1 w-full pt-3 relative">
                   <Image
@@ -112,7 +112,7 @@ export default function Main() {
               </div>
 
               <div>
-                <a className = "regular text-xs sm:text-base"  href="https://www.linkedin.com/in/evan-lin-0b764b1a3/" target="_blank">LinkedIn</a>
+                <a className = "regular text-xs sm:text-base"  href="https://www.linkedin.com/in/evan-lin-0b764b1a3/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
                 <div className="h-1 w-full pt-3 relative">
                   <Image
@@ -125,7 +125,7 @@ export default function Main() {
               </div>
 
               <div>
-                <a className = "regular text-xs sm:text-base" href="https://www.instagram.com/evanliin/" target="_blank">Instagram</a>
+                <a className = "regular text-xs sm:text-base" href="https://www.instagram.com/evanliin/" target="_blank" rel="noopener noreferrer">Instagram</a>
              
                 <div className="h-1 w-full pt-3 relative">
                     <Image
