@@ -26,6 +26,7 @@ module.exports = {
      },
      letterSpacing: {
       normal: '-.025em',
+      medium: '-.025em',
     },
     //  boxShadow: {
     //   'hover': '0px 0px 59.5243px #A783B7'
