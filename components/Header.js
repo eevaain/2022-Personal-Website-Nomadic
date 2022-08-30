@@ -7,7 +7,7 @@ export default function Header() {
 
 <div className="relative">
                 <img className = "rounded-md h-12 w-big sm:h-16 bg-bottom object-cover" src="trippy2.png" alt="ok"></img>
-                <a className="medium absolute w-full py-2 bottom-1 sm:py-2.5 sm:bottom-2.5 text-white text-center">Evan Lin</a>
+                <a className="medium absolute w-full py-2 bottom-1 sm:py-2.5 sm:medium sm:bottom-2.5 text-white text-center">Evan Lin</a>
               </div>
 
               {/* GIVE A THANK YOU TO EVERY SECTION LIKE A THANK YOU TO BRETT FOR EPIPHETS*/}

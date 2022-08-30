@@ -1,5 +1,5 @@
 import Header from '../components/Header'
-
+import "@fontsource/playfair-display/500.css"
 
 function Epiphets() {
     return (
