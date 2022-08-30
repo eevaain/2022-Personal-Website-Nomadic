@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
-import "@fontsource/playfair-display" //make sure to include this in all my pages
+import "@fontsource/playfair-display/500.css" //make sure to include this in all my pages
 
 export default function Home() {
   return (
