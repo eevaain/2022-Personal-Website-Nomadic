@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
-import "@fontsource/playfair-display/500.css"
+import "@fontsource/playfair-display/500.css" //make sure to include this in all my pages
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
 
 
             <div className = "Header">
-              <a className = "medium text-black flex justify-center text-3xl text-center pb-2 pt-1 sm:text-6xl sm:pt-4 tracking-normal"> Take a Leap of Faith</a>
+              <a className = "medium text-black flex justify-center text-3xl text-center pb-0 sm:pb-2 pt-1 sm:text-6xl sm:pt-4 tracking-normal"> Take a Leap of Faith</a>
                   <div className = "flex flex-row justify-center">
                     <a className = "medium text-black font-regular text-lg sm:text-3xl pb-6 tracking-normal"> Safety net: zero</a>
                   </div>
@@ -44,7 +44,7 @@ export default function Home() {
 
               <details className="">
                   <summary className="bg-inherit text-lg cursor-pointer">
-                    <a className="medium sm:text-2xl"> <pog className="pog">Design choice </pog>about this site </a>
+                    <a className="medium sm:text-2xl"> <pog className="pog medium">Design choice </pog>about this site </a>
                     </summary>
                   <div className="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
                       <p>A temple to worhip about communicating ideas instead of merit.</p>
