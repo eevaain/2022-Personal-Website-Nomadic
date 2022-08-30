@@ -15,17 +15,19 @@
 
 /*this means only 'a' tags get the treatment */
 @layer base {
-    a.medium {
-        font-family: "Playfair Display";
-        font-weight: 500;
-        
-    }
 
     a.regular {
         font-family: "Playfair Display";
         font-weight: 400;
      
     }
+
+    a.medium {
+        font-family: "Playfair Display";
+        font-weight: 500;
+        
+    }
+
 
     pog.pog {
         font-family: "Playfair Display";
