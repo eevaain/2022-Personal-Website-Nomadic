@@ -26,7 +26,7 @@ export default function Header() {
                         <a className = "regular no-underline hover:underline">Bookshelf</a>
                       </Link>
                         <Link href="/Epiphets">
-                          <a className = "regular no-underline hover:underline">Epiphets</a>
+                          <a className = "regular no-underline hover:underline">Epithets</a>
                         </Link>
                       <Link href="/Projects">
                         <a className = "regular no-underline hover:underline">Projects</a>
